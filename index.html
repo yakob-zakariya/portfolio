@@ -81,6 +81,16 @@
     .cta{
       background-color: #fff;
     }
+    .my-image{
+      transition: transform 0.3s ease;
+    }
+    .my-image:hover{
+      transform: scale(1.15);
+    }
+    .profile{
+      overflow: hidden;
+    }
+  
     
   </style>
   <body>
@@ -159,8 +169,8 @@
           </p>
             <div class="row align-items-center gx-5 gy-5 text-center text-white">
                 <div class="col-sm-12 col-md-12 col-lg-4">
-                  <div pb-3>
-                    <img class="shadow rounded-circle img-fluid " src="image/me.JPG">
+                  <div class="profile rounded-circle shadow-lg">
+                    <img class="my-image img-fluid " src="image/me.JPG">
                   </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-8 row">
